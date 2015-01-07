@@ -2,9 +2,9 @@
 	margin-top: 60px;
 }
 
-#welcome>#greeting{
+/* #welcome>#greeting{
 	margin-top: 70px;
-}
+} */
 
 #greeting>h1 {
 	font-family: 'Source Sans Pro', Avenir, Arial, sans-serif;
@@ -20,7 +20,7 @@
 	font-size: 22pt;
 	font-weight: 400;
 	font-style: italic;
-	color: #1D202B;
+	color: #FB8A51;
 	text-indent: 5px;
 	margin: 0px;
 	padding: 0px;

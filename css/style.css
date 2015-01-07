@@ -1,0 +1,54 @@
+@media only screen and (min-device-width: 767px) and (max-device-width: 1024px) {
+	#welcome {
+		margin-top: 60px;
+	}
+
+	#greeting>h1 {
+		font-family: 'Source Sans Pro', Avenir, Arial, sans-serif;
+		font-size: 72pt;
+		font-weight: 300;
+		color: #FB8A51;
+		margin: 0px;
+		padding: 0px;
+	}
+}
+
+@media only screen and (max-device-width: 767px) {
+
+	#greeting>h1 {
+		font-family: 'Source Sans Pro', Avenir, Arial, sans-serif;
+		font-size: 72pt;
+		font-weight: 300;
+		color: #FB8A51;
+		margin: 0px;
+		padding: 0px;
+	}
+}
+
+#welcome {
+	margin-top: 60px;
+}
+
+#welcome>#greeting{
+	margin-top: 70px;
+}
+
+#greeting>h1 {
+	font-family: 'Source Sans Pro', Avenir, Arial, sans-serif;
+	font-size: 72pt;
+	font-weight: 300;
+	color: #1D202B;
+	margin: 0px;
+	padding: 0px;
+}
+
+#greeting>h2 {
+	font-family: 'Playfair Display', 'Times New Roman' serif;
+	font-size: 22pt;
+	font-weight: 400;
+	font-style: italic;
+	color: #FB8A51;
+	text-indent: 5px;
+	margin: 0px;
+	padding: 0px;
+}
