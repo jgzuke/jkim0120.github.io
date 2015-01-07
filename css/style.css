@@ -1,4 +1,17 @@
-body {
+#greeting>h1 {
 	font-family: 'Source Sans Pro', Avenir, Arial, sans-serif;
-	font-weight: 400 !important;
+	font-size: 72pt;
+	font-weight: 300;
+	margin: 0px;
+	padding: 0px;
+}
+
+#greeting>h2 {
+	font-family: 'Playfair Display', 'Times New Roman' serif;
+	font-size: 22pt;
+	font-weight: 400;
+	font-style: oblique;
+	text-indent: 5px;
+	margin: 0px;
+	padding: 0px;
 }
