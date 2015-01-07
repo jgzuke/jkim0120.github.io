@@ -1,3 +1,24 @@
+/* For desktop */
+@media only screen and (min-width: 1024px) {
+	#welcome {
+		margin-top: 60px;
+	}
+
+	#welcome>#greeting{
+		margin-top: 70px;
+	}
+	
+	#greeting>h1 {
+		font-family: 'Source Sans Pro', Avenir, Arial, sans-serif;
+		font-size: 72pt;
+		font-weight: 300;
+		color: #1D202B;
+		margin: 0px;
+		padding: 0px;
+	}
+}
+
+/* For tablet */
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
 	#welcome {
 		margin-top: 60px;
@@ -13,6 +34,7 @@
 	}
 }
 
+/* For mobile */
 @media only screen and (max-width: 767px) {
 
 	#greeting>h1 {
@@ -23,23 +45,6 @@
 		margin: 0px;
 		padding: 0px;
 	}
-}
-
-#welcome {
-	margin-top: 60px;
-}
-
-#welcome>#greeting{
-	margin-top: 70px;
-}
-
-#greeting>h1 {
-	font-family: 'Source Sans Pro', Avenir, Arial, sans-serif;
-	font-size: 72pt;
-	font-weight: 300;
-	color: #1D202B;
-	margin: 0px;
-	padding: 0px;
 }
 
 #greeting>h2 {
