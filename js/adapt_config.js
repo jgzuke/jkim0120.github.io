@@ -2,8 +2,8 @@ var ADAPT_CONFIG = {
   path: 'css/',
   dynamic: true,
   range: [
-    '0px    to 760px  = mobile.min.css',
-    '760px  to 1240px  = tablet.min.css',
-    '1240px = desktop.min.css'
+    '0px    to 767px  = mobile.min.css',
+    '767px  to 1023px  = tablet.min.css',
+    '1023px = desktop.min.css'
   ]
 };

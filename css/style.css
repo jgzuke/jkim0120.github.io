@@ -1,34 +1,38 @@
 /* For desktop */
-@media only screen and (min-width: 980px) {
-	#welcome {
-		margin-top: 60px;
+@media only screen and (min-width: 1024px) {
+	#greeting {
+		margin-top: 10%;
+		padding: 0px;
 	}
 
 }
 
 /* For tablet */
-@media only screen and (min-width: 760px) and (max-width: 980px) {
-	#welcome {
-		margin-top: 60px;
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	#greeting {
+		margin-top: 25px ;
+		padding: 0px;
 	}
 
 }
 
 /* For mobile */
-@media only screen and (max-width: 760px) {
-
-
+@media only screen and (max-width: 767px) {
+	#greeting {
+		margin-left: 25px ;
+		padding: 0px;
+	}
 }
 
-#greeting{
-	margin-top: 10%;
-	padding: 0px;
+#welcome {
+	margin-top: 60px;
 }
 
 #greeting>h1 {
 		font-family: 'Source Sans Pro', Avenir, Arial, sans-serif;
 		font-size: 72pt;
 		font-weight: 300;
+		line-height: 0.9em;
 		color: #1D202B;
 		margin: 0px;
 		padding: 0px;
@@ -41,6 +45,6 @@
 	font-style: italic;
 	color: #FB8A51;
 	text-indent: 5px;
-	margin: 0px;
+	margin-top: 20px;
 	padding-bottom: 5px;
 }
