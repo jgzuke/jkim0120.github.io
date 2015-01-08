@@ -1,14 +1,31 @@
 /* For desktop */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 980px) {
 	#welcome {
 		margin-top: 60px;
 	}
 
-	#welcome>#greeting{
-		margin-top: 70px;
+}
+
+/* For tablet */
+@media only screen and (min-width: 760px) and (max-width: 980px) {
+	#welcome {
+		margin-top: 60px;
 	}
-	
-	#greeting>h1 {
+
+}
+
+/* For mobile */
+@media only screen and (max-width: 760px) {
+
+
+}
+
+#greeting{
+	margin-top: 10%;
+	padding: 0px;
+}
+
+#greeting>h1 {
 		font-family: 'Source Sans Pro', Avenir, Arial, sans-serif;
 		font-size: 72pt;
 		font-weight: 300;
@@ -16,36 +33,6 @@
 		margin: 0px;
 		padding: 0px;
 	}
-}
-
-/* For tablet */
-@media only screen and (min-width: 767px) and (max-width: 1024px) {
-	#welcome {
-		margin-top: 60px;
-	}
-
-	#greeting>h1 {
-		font-family: 'Source Sans Pro', Avenir, Arial, sans-serif;
-		font-size: 72pt;
-		font-weight: 300;
-		color: #FB8A51;
-		margin: 0px;
-		padding: 0px;
-	}
-}
-
-/* For mobile */
-@media only screen and (max-width: 767px) {
-
-	#greeting>h1 {
-		font-family: 'Source Sans Pro', Avenir, Arial, sans-serif;
-		font-size: 72pt;
-		font-weight: 300;
-		color: #FB8A51;
-		margin: 0px;
-		padding: 0px;
-	}
-}
 
 #greeting>h2 {
 	font-family: 'Playfair Display', 'Times New Roman' serif;
@@ -55,5 +42,5 @@
 	color: #FB8A51;
 	text-indent: 5px;
 	margin: 0px;
-	padding: 0px;
+	padding-bottom: 5px;
 }
