@@ -18,7 +18,7 @@
 
 /* For mobile */
 @media only screen and (max-width: 767px) {
-	#greeting {
+	#greeting, #greeting2 {
 		margin-left: 25px ;
 		padding: 0px;
 	}
@@ -29,17 +29,17 @@
 }
 
 #greeting>h1 {
-		font-family: 'Source Sans Pro', Avenir, Arial, sans-serif;
-		font-size: 72pt;
-		font-weight: 300;
-		line-height: 0.9em;
-		color: #1D202B;
-		margin: 0px;
-		padding: 0px;
+	font-family: 'Source Sans Pro', 'Avenir', Arial, sans-serif;
+	font-size: 72pt;
+	font-weight: 300;
+	line-height: 0.9em;
+	color: #1D202B;
+	margin: 0px;
+	padding: 0px;
 	}
 
-#greeting>h2 {
-	font-family: 'Playfair Display', 'Times New Roman' serif;
+#greeting2>h2 {
+	font-family: 'Arapey', 'playfair_displayregular', 'Times New Roman' serif;
 	font-size: 22pt;
 	font-weight: 400;
 	font-style: italic;
