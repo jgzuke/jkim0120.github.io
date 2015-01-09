@@ -18,11 +18,11 @@ window.onresize = changeMobile;
 
 // Load fade-in Welcome
 $(document).ready(function() {
-    $('.fadeIn').hide();
+    $('.fadeIn').css({marginTop: 50, opacity: 0});
 });
 
 $(window).load(function() {
     $('.fadeIn').each(function(i) {
-       $(this).delay((i + 1) * 1000).fadeIn(1500);
+       $(this).delay((i + 1) * 750).animate({marginTop: 0, opacity: 1}, 1250);
     });
 });
