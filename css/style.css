@@ -1,5 +1,16 @@
+/* For parallax */
+.parallax-viewport {
+      width: 100%;
+      max-width: 60em;
+      height: 20em;
+}
+.parallax-layer {
+    position: absolute;
+}
+
 #welcome {
 	margin-top: 60px;
+	position:relative; 
 }
 
 #greeting>h1 {
@@ -13,7 +24,7 @@
 	}
 
 #greeting2>h2 {
-	font-family: 'Arapey', 'playfair_displayregular', 'Times New Roman' serif;
+	font-family: arapeyregular, 'playfair_displayregular', 'Times New Roman' serif;
 	font-size: 22pt;
 	font-weight: 400;
 	font-style: italic;
@@ -41,7 +52,12 @@
 /* For tablet */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 	#greeting {
-		margin-top: 25px ;
+		margin-top: 25px;
+		padding: 0px;
+	}
+
+	#links {
+		margin-top: -15px;
 		padding: 0px;
 	}
 

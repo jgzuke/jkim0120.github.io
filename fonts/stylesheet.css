@@ -3,13 +3,9 @@
 
 
 @font-face {
-    font-family: 'playfair_displayregular';
-    src: url('playfairdisplay-regular-webfont.eot');
-    src: url('playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('playfairdisplay-regular-webfont.woff2') format('woff2'),
-         url('playfairdisplay-regular-webfont.woff') format('woff'),
-         url('playfairdisplay-regular-webfont.ttf') format('truetype'),
-         url('playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
+    font-family: arapeyregular;
+    src: url("arapey-regular-webfont.woff") format("woff"),
+    	 url("arapey-regular-webfont.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 

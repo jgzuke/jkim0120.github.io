@@ -26,3 +26,4 @@ $(window).load(function() {
        $(this).delay((i + 1) * 750).animate({marginTop: 0, opacity: 1}, 1250);
     });
 });
+
