@@ -1,66 +1,58 @@
-/* For parallax */
-.parallax-viewport {
-      width: 100%;
-      max-width: 60em;
-      height: 20em;
-}
-.parallax-layer {
-    position: absolute;
-}
-
 #welcome {
 	margin-top: 60px;
-	position:relative; 
 }
 
-#greeting>h1 {
+#tophead>h1 {
 	font-family: 'Source Sans Pro', 'Avenir', Arial, sans-serif;
 	font-size: 72pt;
 	font-weight: 300;
-	line-height: 0.9em;
 	color: #1D202B;
-	margin: 0px;
 	padding: 0px;
+	margin-top: 120px;
 	}
 
-#greeting2>h2 {
-	font-family: arapeyregular, 'playfair_displayregular', 'Times New Roman' serif;
+#bothead>h2 {
+	font-family: 'arapeyregular', 'playfair_displayregular', 'Times New Roman' serif;
 	font-size: 22pt;
 	font-weight: 400;
 	font-style: italic;
 	color: #FB8A51;
 	text-indent: 5px;
-	margin-top: 20px;
-	padding-bottom: 5px;
+	margin-top: 0px;
+	padding-bottom: 30px;
 }
 
 #resume, #github, #linkedin {
 	width: 25px;
 	height: 25px;
-	margin-left: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#navbar {
+	width: 100px;
+	height: 500px;
+	margin: 0px;
+	position: fixed;
+	z-index: 999;
+}
+
+#circle {
+	width: 50px;
+	height: 50px;
+	background: blue;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
 }
 
 /* For desktop */
-@media only screen and (min-width: 1024px) {
-	#greeting {
-		margin-top: 10%;
-		padding: 0px;
-	}
+@media only screen and (min-width: 992px) {
 
 }
 
 /* For tablet */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-	#greeting {
-		margin-top: 25px;
-		padding: 0px;
-	}
-
-	#links {
-		margin-top: -15px;
-		padding: 0px;
-	}
-
+@media only screen and (min-width: 768px) {
 	#links {
 		margin-top: -15px;
 		padding: 0px;
@@ -69,7 +61,7 @@
 
 /* For mobile */
 @media only screen and (max-width: 767px) {
-	#greeting, #greeting2 {
+	#greeting, #bothead {
 		margin-left: 25px ;
 		padding: 0px;
 	}

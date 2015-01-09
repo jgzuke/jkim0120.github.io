@@ -5,42 +5,41 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta http-equiv="author" content="Joseph Kim">
-		<!-- 960.gs code -->
-		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-		<link href="desktop.min.css"
-		  type="text/css" rel="stylesheet">
-		<script type="text/javascript" src="js/adapt_config.js"></script>
-    	<script type="text/javascript" src="js/adapt.min.js"></script>
-		<!-- end 960.gs code -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="css/style.css" type="text/css" rel="stylesheet">
+		<!--bootstrap-->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!--fonts-->
 		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300" type="text/css" rel="stylesheet">
 		<link rel="stylesheet" href="fonts/stylesheet.css" type="text/css" charset="utf-8">
 		<!--<link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>-->
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	</head>
 	<body>
-		<div class="container_12 clearfix" id="welcome">
+		<div id="welcome" class="container">
+		<!--<div id="navbar" role="navigation">
+			<div id="circle"></div>
+		</div>-->
+
+			<div class="row">
 				<div class="fadeIn">
-					<img src="images/Jump.jpg" id="jump" class="grid_6">
-					<div id="greeting" class="grid_6">
+					<img src="images/Jump.jpg" id="jump" class="col-md-6 col-xs-12">
+					<div id="tophead" class="col-md-6 col-xs-12">
 						<h1>What's up?</h1>
-					</div>	
-				</div>
-				<div id="greeting2" class="fadeUp grid_6">
+					</div>
+				</div>	
+				<div id="bothead" class="col-md-6 fadeUp">
 					<h2>It's nice to meet you.</h2>
-					<div id="links">
-						<img src="images/Resume.png" id="resume" class="grid_1">
-						<a href="https://github.com/jkim0120">
-							<img src="images/github.png" id="github" class="grid_1">
-						</a>
-						<a href="https://www.linkedin.com/profile/view?id=253984869&trk=nav_responsive_tab_profile_pic">
-							<img src="images/linkedin.png" id="linkedin" class="grid_1">
-						</a>
+					<div id="links" class="col-md-6">
+						<a href="https://github.com/jkim0120"><img src="images/Resume.png" id="resume"></a>
+						<a href="https://github.com/jkim0120"><img src="images/github.png" id="github"></a>
+						<a href="https://www.linkedin.com/profile/view?id=253984869&trk=nav_responsive_tab_profile_pic"><img src="images/linkedin.png" id="linkedin"></a>
 					</div>
 				</div>
 			</div>		
 		</div>
-	<script type="text/javascript" src="js/main.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script src="js/bootstrap.min.js"></script>	
 	</body>
 </html>		
 
