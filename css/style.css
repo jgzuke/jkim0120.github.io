@@ -85,7 +85,7 @@
 @media only screen and (max-width: 767px) {
 
 	#tophead, #bothead {
-		width: 328px;
+		width: 324px;
 		margin-left: auto;
 		margin-right: auto;
 		padding: 0px;
@@ -105,7 +105,7 @@
 		width: 30px;
 		height: 30px;
 		margin-left: 10%;
-		margin-right: 20%;
+		margin-right:21.7%;
 	}
 
 	#github {
@@ -116,7 +116,7 @@
 	#linkedin {
 		width: 30px;
 		height: 30px;
-		margin-left: 20%;
+		margin-left: 21.7%;
 		margin-right: 10%;
 	}
 
