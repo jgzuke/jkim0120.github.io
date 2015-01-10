@@ -63,6 +63,10 @@
 		margin-top: 15px;
 	}
 
+	#bothead>h2 {
+		margin-top: 10px;
+	}
+
 	#github, #linkedin {
 		width: 30px;
 		height: 30px;
@@ -81,7 +85,7 @@
 @media only screen and (max-width: 767px) {
 
 	#tophead, #bothead {
-		width: 353px;
+		width: 328px;
 		margin-left: auto;
 		margin-right: auto;
 		padding: 0px;
@@ -89,7 +93,7 @@
 	}
 
 	#tophead>h1 {
-		font-size: 60pt;
+		font-size: 55pt;
 		margin-top: 30px;
 	}
 
@@ -100,8 +104,8 @@
 	#resume {
 		width: 30px;
 		height: 30px;
-		margin-left: auto;
-		margin-right: 33.3%;
+		margin-left: 10%;
+		margin-right: 20%;
 	}
 
 	#github {
@@ -112,8 +116,8 @@
 	#linkedin {
 		width: 30px;
 		height: 30px;
-		margin-left: 33.3%;
-		margin-right: auto;
+		margin-left: 20%;
+		margin-right: 10%;
 	}
 
 	.push {
