@@ -27,7 +27,7 @@ $(document).ready(function() {
     		height: circleSize[i], opacity: (circleSize[i] - 8)/100}, 25);
     	$(navlinks[i]).stop().animate({width: circleSize[i], height: circleSize[i]}, 25);
     	$(navpage[i]).stop().animate({height: circleSize[i], 
-    		 fontSize: fontSize[i] + "%", opacity: (circleSize[i] + 25)/100}, 25);
+    		 fontSize: fontSize[i] + "%", opacity: (circleSize[i] + 50)/100}, 25);
     }
 });
 
@@ -60,6 +60,6 @@ $(window).scroll(function () {
     		height: circleSize[i], opacity: (circleSize[i] - 8)/100}, 25);
     	$(navlinks[i]).stop().animate({width: circleSize[i], height: circleSize[i]}, 25);
     	$(navpage[i]).stop().animate({height: circleSize[i], 
-    		 fontSize: fontSize[i] + "%", opacity: (circleSize[i] + 25)/100}, 25);
+    		 fontSize: fontSize[i] + "%", opacity: (circleSize[i] + 50)/100}, 25);
     }
 });
