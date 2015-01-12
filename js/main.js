@@ -41,4 +41,3 @@ function resizeNavButtons()
 $(window).scroll(function () { 
     resizeNavButtons();
 });
-
